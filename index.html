@@ -8,11 +8,13 @@
     <title>SampahBisa</title>
   </head>
   <body class="font-sans">
-    <!-- navigation -->
+    <!-- start navigation -->
     <nav
-      class="flex items-center justify-between flex-wrap p-6 md:py-6 md:px-16 bg-white transition-all duration-300 transform"
+      class="flex items-center justify-between flex-wrap px-6 py-4 md:bg-white md:py-6 md:px-16 bg-gray-900 text-white transition-all duration-300 transform"
     >
-      <div class="flex items-center flex-shrink-0 text-gray-900 mr-6">
+      <div
+        class="flex items-center flex-shrink-0 text-white md:text-gray-900 mr-6"
+      >
         <svg
           class="fill-current h-8 w-8 mr-2"
           width="54"
@@ -24,11 +26,11 @@
             d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"
           />
         </svg>
-        <span class="font-semibold text-xl tracking-tight">Tailwind CSS</span>
+        <span class="font-semibold text-xl tracking-tight">SampahBisa</span>
       </div>
       <div class="block md:hidden">
         <button
-          class="nav-icon flex items-center px-3 py-2 border rounded text-gray-900 border-gray-900 hover:text-gray-700 hover:border-gray-700"
+          class="nav-icon flex items-center px-3 py-2 border rounded text-white border-white hover:text-gray-400 hover:border-gray-400 md:text-gray-900 md:border-gray-900 md:hover:text-gray-700 md:hover:border-gray-700"
         >
           <svg
             class="fill-current h-3 w-3"
@@ -47,31 +49,31 @@
         <div class="text-sm font-medium">
           <a
             href="#"
-            class="block mt-4 md:inline-block md:mt-0 text-gray-900 hover:text-gray-700 mr-8"
+            class="block mt-4 md:inline-block md:mt-0 text-white hover:text-gray-400 md:text-gray-900 md:hover:text-gray-700 mr-8"
           >
             Beranda
           </a>
           <a
             href="#"
-            class="block mt-4 md:inline-block md:mt-0 text-gray-900 hover:text-gray-700 mr-8"
+            class="block mt-4 md:inline-block md:mt-0 text-white hover:text-gray-400 md:text-gray-900 md:hover:text-gray-700 mr-8"
           >
             Tentang Kami
           </a>
           <a
             href="#"
-            class="block mt-4 md:inline-block md:mt-0 text-gray-900 hover:text-gray-700 mr-8"
+            class="block mt-4 md:inline-block md:mt-0 text-white hover:text-gray-400 md:text-gray-900 md:hover:text-gray-700 mr-8"
           >
             Layanan
           </a>
           <a
             href="#"
-            class="block mt-4 md:inline-block md:mt-0 text-gray-900 hover:text-gray-700 mr-8"
+            class="block mt-4 md:inline-block md:mt-0 text-white hover:text-gray-400 md:text-gray-900 md:hover:text-gray-700 mr-8"
           >
             Blog
           </a>
           <a
             href="#"
-            class="block mt-4 md:inline-block md:mt-0 text-gray-900 hover:text-gray-700"
+            class="block mt-4 md:inline-block md:mt-0 text-white hover:text-gray-400 md:text-gray-900 md:hover:text-gray-700 mb-1"
           >
             Gabung
           </a>
@@ -79,13 +81,81 @@
       </div>
     </nav>
     <!-- end navigation -->
-    <!-- content 1 -->
-    <div class="box-border bg-white h-screen">
-      <h1>wkwkwkwk</h1>
-      <button class="transition duration-300 bg-blue-500 hover:bg-red-500">
-        Hover me
-      </button>
+    <!-- start content 1 -->
+    <div class="box-border section bg-beranda bg-auto bg-center">
+      <div class="grid grid-cols-1 px-6 py-16 md:px-16 md:py-16">
+        <div class="grid grid-rows-2 sm:w-full md:w-1/2">
+          <div>
+            <h1 class="text-5xl font-bold">SampahBisa</h1>
+            <p class="block leading-7">
+              SampahBisa adalah aplikasi digital penjemputan sampah daur ulang
+              dan membantumu untuk mengelola sampah. Sudah saatnya kamu dan
+              SampahBisa berperan mengelola sampah.
+            </p>
+          </div>
+          <div class="grid grid-cols-6 gap-4 h-20 pt-5">
+            <button
+              class="bg-custom-green2 hover:bg-green-300 text-gray-900 font-medium py-2 px-4 rounded-full col-span-4 sm:col-span-2 md:col-span-3 lg:col-span-2"
+            >
+              Download Android
+            </button>
+            <button
+              class="bg-custom-green2 hover:bg-green-300 text-gray-900 font-medium py-2 px-4 rounded-full col-span-4 sm:col-span-2 md:col-span-3 lg:col-span-2"
+            >
+              Download iOS
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
+    <!-- end content 1 -->
+    <!-- start content 2 -->
+    <div class="box-border bg-auto bg-center h-screen">
+      <div
+        class="grid grid-cols-1 justify-items-center gap-10 px-6 pt-8 lg:grid-cols-3 md:px-16 md:pt-8"
+      >
+        <h1 class="col-span-1 lg:col-span-3 text-center text-5xl font-bold">
+          Kini Sekarang Anda Bisa
+        </h1>
+        <div
+          class="flex flex-col items-center justify-end bg-card-1 bg-cover bg-bottom overflow-hidden shadow-lg"
+        >
+          <div class="px-6 pb-10 text-center space-y-4">
+            <div class="font-bold text-2xl mt-4">Sampah Jadi Rupiah</div>
+            <button
+              class="bg-custom-green2 font-medium text-sm hover:bg-green-300 text-gray-900 py-2 px-4 rounded-full"
+            >
+              Lihat Selengkapnya
+            </button>
+          </div>
+        </div>
+        <div
+          class="flex flex-col items-center justify-end bg-card-2 bg-cover bg-bottom overflow-hidden shadow-lg"
+        >
+          <div class="px-6 pb-10 text-center space-y-4">
+            <div class="font-bold text-2xl mt-4">Daur Ulang Dapat Uang</div>
+            <button
+              class="bg-custom-green2 font-medium text-sm hover:bg-green-300 text-gray-900 py-2 px-4 rounded-full"
+            >
+              Lihat Selengkapnya
+            </button>
+          </div>
+        </div>
+        <div
+          class="flex flex-col items-center justify-end bg-card-3 bg-cover bg-bottom overflow-hidden shadow-lg"
+        >
+          <div class="px-6 pb-10 text-center space-y-4">
+            <div class="font-bold text-2xl mt-4">Sampah Dapat Diangkut</div>
+            <button
+              class="bg-custom-green2 font-medium text-sm hover:bg-green-300 text-gray-900 py-2 px-4 rounded-full"
+            >
+              Lihat Selengkapnya
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end content 2 -->
     <script src="./dist/js/custom.js"></script>
   </body>
 </html>
