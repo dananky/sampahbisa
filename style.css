@@ -10,30 +10,44 @@
   }
 }
 
+@screen lg {
+  .bg-beranda {
+    height: calc(100vh - 80px) !important;
+  }
+}
+
+@screen xl {
+  .bg-card-1,
+  .bg-card-2,
+  .bg-card-3 {
+    width: 320px !important;
+  }
+}
+
 .bg-beranda {
-  min-height: calc(100vh - 80px);
+  height: calc(70vh - 80px);
   background-image: url("../asset/img/Beranda/beranda.png");
 }
 
 .bg-card-1 {
   border-radius: 3rem;
   background-image: url("../asset/img/Beranda/card1.png");
-  min-height: 65vh;
-  min-width: 348px;
+  height: 450px;
+  width: 300px;
 }
 
 .bg-card-2 {
   border-radius: 3rem;
   background-image: url("../asset/img/Beranda/card2.png");
-  min-height: 65vh;
-  min-width: 348px;
+  height: 450px;
+  width: 300px;
 }
 
 .bg-card-3 {
   border-radius: 3rem;
   background-image: url("../asset/img/Beranda/card3.png");
-  min-height: 65vh;
-  min-width: 348px;
+  height: 450px;
+  width: 300px;
 }
 
 .bg-custom-green {
